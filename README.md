@@ -6,10 +6,10 @@ In Spring Boot, the Feign client is a declarative web service client developed b
 You can check out this code, build it and run both microservices to test.
 
 In this sample code, 
--> there are two microservices named **Order service** and **product service **
--> Order service has exposed endpoints to get all orders and a particular order by id
--> Order service talks to Product service using Feign Client to fetch all the products associated with the order and return them in response 
--> Order service talks to Product service using Feign Client to fetch the products for a particular id
+* there are two microservices named **Order service** and **Product Service**
+* Order service has exposed endpoints to get all orders and a particular order by id
+* Order service talks to Product service using Feign Client to fetch all the products associated with the order and return them in response 
+* Order service talks to Product service using Feign Client to fetch the products for a particular id
 
-**Note:- This is just a sample code to depict the Feign Client integrations and returns the cached response from API endpoints. No Database is used in this sample. **
+**Note:- This is just a sample code to depict the Feign Client integrations and returns the cached response from API endpoints. No Database is used in this sample.**
 
